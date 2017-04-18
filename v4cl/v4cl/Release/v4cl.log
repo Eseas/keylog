@@ -1,0 +1,26 @@
+﻿Build started 2016-03-06 10:26:05.
+     1>Project "c:\Users\turbo\documents\visual studio 2010\Projects\v4cl\v4cl\v4cl.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\".
+       InitializeBuildStatus:
+         Creating "Release\v4cl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>client.cpp(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\v4cl.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\v4cl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\v4cl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\v4cl.lib" /MACHINE:X86 Release\client.obj
+         Generating code
+         Finished generating code
+         v4cl.vcxproj -> c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\v4cl.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\turbo\documents\visual studio 2010\Projects\v4cl\Release\v4cl.exe;#1" /manifest Release\v4cl.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\v4cl.unsuccessfulbuild".
+         Touching "Release\v4cl.lastbuildstate".
+     1>Done Building Project "c:\Users\turbo\documents\visual studio 2010\Projects\v4cl\v4cl\v4cl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

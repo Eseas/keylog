@@ -1,0 +1,17 @@
+﻿Build started 2016-03-18 21:18:17.
+     1>Project "D:\Dropbox\Programų sistemos\Programos\Keylogger\v4cl\v4cl\v4cl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\client.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         v4cl.vcxproj -> C:\Users\turbo\documents\visual studio 2010\Projects\Eseas Mail Service\Debug\client.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\client.unsuccessfulbuild".
+         Touching "Debug\client.lastbuildstate".
+     1>Done Building Project "D:\Dropbox\Programų sistemos\Programos\Keylogger\v4cl\v4cl\v4cl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

@@ -1,0 +1,22 @@
+﻿Build started 2016-03-06 10:40:59.
+     1>Project "c:\Users\turbo\documents\visual studio 2010\Projects\V4\V5\V5.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\V5.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         server.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\turbo\documents\visual studio 2010\Projects\V4\Release\V5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\V5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\turbo\documents\visual studio 2010\Projects\V4\Release\V5.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\turbo\documents\visual studio 2010\Projects\V4\Release\V5.lib" /MACHINE:X86 Release\server.obj
+         Generating code
+         Finished generating code
+         V5.vcxproj -> c:\users\turbo\documents\visual studio 2010\Projects\V4\Release\V5.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\turbo\documents\visual studio 2010\Projects\V4\Release\V5.exe;#1" /manifest Release\V5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\V5.unsuccessfulbuild".
+         Touching "Release\V5.lastbuildstate".
+     1>Done Building Project "c:\Users\turbo\documents\visual studio 2010\Projects\V4\V5\V5.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56

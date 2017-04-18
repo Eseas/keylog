@@ -1,0 +1,29 @@
+﻿Build started 2016-03-17 22:25:34.
+     1>Project "D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\V5\V5.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\server.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt message.cpp server.cpp
+         server.cpp
+     1>d:\dropbox\programų sistemos\programos\keylogger\v4\v5\server.cpp(83): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>d:\dropbox\programų sistemos\programos\keylogger\v4\v5\server.cpp(97): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>d:\dropbox\programų sistemos\programos\keylogger\v4\v5\server.cpp(18): warning C4101: 'message' : unreferenced local variable
+         message.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.lib" /MACHINE:X86 Debug\message.obj
+         Debug\server.obj
+         LINK : D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.exe not found or not built by the last incremental link; performing full link
+         V5.vcxproj -> D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\Debug\server.exe;#1" /manifest Debug\server.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\server.unsuccessfulbuild".
+         Touching "Debug\server.lastbuildstate".
+     1>Done Building Project "D:\Dropbox\Programų sistemos\Programos\Keylogger\V4\V5\V5.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.27
